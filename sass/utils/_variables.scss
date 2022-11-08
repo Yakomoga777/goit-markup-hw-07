@@ -6,10 +6,10 @@ $hero-title-color: #ffffff;
 $hero-btn-color: #ffffff;
 $background-card-clor: #ffffff;
 $features-card-color: #f5f4fa;
-$section-background-color: #f5f4fa;
+$section-team-background-color: #f5f4fa;
 $footer-background-color: #2f303a;
 $address-color: rgba(255, 255, 255, 0.6);
-$outline: 0px solid tomato;
+$outline: 1px solid tomato;
 $logo-black-color: #000000;
 $hover-hero-btn-color: #188ce8;
 $social-icon-color: #afb1b8;
@@ -17,9 +17,12 @@ $background-icon-footer-color: #ffffff1a;
 $hero-background-color: #2f303a;
 $overlay-background-works-color: rgba(47, 48, 58, 0.8);
 $overlay-background-text-color: #ffffff;
+$social-icon-changed-color: #ffffff;
+$customers-icon-color: #afb1b8;
+$modal-color: #ffffff;
 
 // --overlay-background-portfolio-color: rgba(33, 150, 243, 0.9);
-// --backdrop-color: #00000033;
+$backdrop-color: #00000033;
 $cubic: cubic-bezier(0.4, 0, 0.2, 1);
 
 /* ЗАГАЛЬНІ ПРАВИЛА */
@@ -84,6 +87,11 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+}
+
+footer {
+  background-color: $footer-background-color;
+  padding: 60px 0;
 }
 
 .visually-hidden {
